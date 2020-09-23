@@ -1,0 +1,246 @@
+body {
+    margin-top: 0;
+    text-align: center;
+    height: 100%;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #a0c1b8;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: auto;
+
+}
+
+.top-container {
+    background-color: #131313;
+    margin: 0 auto;
+    height: 100%; 
+    padding-top: 150px;
+    color: #a0c1b8;
+    position: relative;
+    line-height: 1.1;
+}
+
+.github {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.linkedin {
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.mountain {
+    position: relative;
+    bottom: 0;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 200px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.middle-container {
+    background-color: #131313;
+    height: auto;
+}
+
+.profile-photo {
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 50px;;
+}
+
+.middle-container h1 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #131313;
+    color: #d9ecf2;
+    text-align: center;
+}
+
+.bio {
+    background-color: #d9ecf2;
+    height: 100vh;
+}
+
+.bio p {
+    padding: 50px;
+    color: #2b2e4a;
+    font-weight: 1000;
+    line-height: 2;
+}
+
+.education {
+    height: 100vh;
+    text-align: left;
+    color: #d9ecf2;
+}
+
+.education h1 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.education-list {
+    list-style-type: disc;
+    margin: auto;
+    padding: 0 50px;
+    padding-bottom: 50px;
+}
+
+.education-list li {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.year {
+    float: right;
+    margin-right: 50px;
+}
+
+.skills {
+    background-color: #131313;
+    color: #d9ecf2;    
+    height: 100vh;
+}
+
+.skills h1 {
+    padding: 50px 0;
+    color: #d9ecf2;
+}
+
+.skills h3 {
+    color: #d9ecf2;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    background-color: #2b2e4a;
+    height: 20px;
+    border-radius: 20px;
+    padding: 2px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.python-progress {
+    display: block;
+    background-color: #ff414d;
+    height: 100%;
+    width: 75%;
+    border-radius: 20px;
+}
+
+.ml-progress {
+    display: block;
+    background-color: #ff414d;
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.webd-progress {
+    display: block;
+    background-color: #ff414d;
+    height: 100%;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.cpp-progress {
+    display: block;
+    background-color: #ff414d;
+    height: 100%;
+    width: 70%;
+    border-radius: 20px;
+}
+
+.projects {
+    color: #d9ecf2;
+    background-color: #131313;
+    height: auto;
+    text-align: left;
+}
+
+.projects h1 {
+    color: #d9ecf2;
+    padding: 50px;
+}
+
+.project-list {
+    list-style-type: disc;
+    margin: auto;
+    padding: 0 50px;
+    padding-bottom: 50px;
+}
+
+.project-list li{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.description {
+    font-style: italic;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+.description a {
+    color: #d9ecf2;
+}
+
+
+.bottom-container {
+    background-color: #131313;
+    height: auto;
+    color: #d9ecf2;
+}
+
+.footer-link {
+    color: #d9ecf2;
+}
+
+.credits {
+    padding: 10px;
+    color: #d9ecf2;
+    font-size: xx-small;
+}
+
+.credits a {
+    color: #d9ecf2;
+}
